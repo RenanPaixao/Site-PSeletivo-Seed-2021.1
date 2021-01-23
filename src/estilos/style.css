@@ -1,0 +1,9 @@
+/*Linkando com o Font-Awesome*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+/*Linkando com o Google Fonts, as fontes importadas foram: Montserrat (Primária) e Poppins (Secundária)*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Poppins:wght@500;600;700&display=swap');
+
+:root{ /*Atribuindo variáveis às fontes*/
+    --font-primary:"Montserrat", serif; /*Fonte Primária*/
+    --font-secondary: "Poppins", sans-serif; /*Fonte Secundária*/
+}
