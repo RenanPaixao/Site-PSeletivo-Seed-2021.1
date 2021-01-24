@@ -26,12 +26,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('../images/bg-values.jpg') no-repeat ;
-    background-position: center;
+    background: url('../images/bg-values.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 20em;
 }
-
 
 /*Configurando título das sessões*/
 .title-section{
