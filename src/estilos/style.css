@@ -16,6 +16,9 @@
     font-family: var(--font-primary);
 }
 
+#hamburger{
+    color: #f1f1f1;
+}
 
 /*Configurando Section de valores*/
 #valores{
