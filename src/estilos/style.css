@@ -54,4 +54,32 @@
     height: 300px;
     margin: 1.5em;
     background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-card{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img-card > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-card{
+    text-align: center;
+    color: var(--color-primary);
+    position: relative;
+    top: 1.5em;
 }
