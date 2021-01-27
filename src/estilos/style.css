@@ -278,13 +278,7 @@ body {
     }
     
     
-    #inscricao div {
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
+    
 
     /*Footer*/
 
