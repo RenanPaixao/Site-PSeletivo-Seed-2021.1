@@ -41,9 +41,12 @@ body {
     font-family: var(--font-primary);
 }
 
+
+
 /*Largura do Header*/
 #institucional header{
-
+    
+    font-size: calc(0.7rem + .5vw);
     width: 100%;
 }
 
@@ -182,7 +185,7 @@ body {
 /* Tela de celular */
 @media only screen and (max-width: 1005px){
 
-    
+    /*Institucional*/
     #titulo-empresa{
 
         padding-top: 2%;
@@ -204,6 +207,9 @@ body {
         padding-left: 5%;
         margin-bottom: 4%
     }
+    
+
+
 }
 
 
@@ -280,6 +286,52 @@ body {
         margin-right: 20%;
     }
 
-    
+    /*Footer*/
 
+    #footer-itens-id{
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: larger;
+        text-align: center;
+    }
+
+    #logo-footer-seed{
+
+        min-width: 350px;
+        
+    }
+    
+    #logos{
+
+        width: 100vw;
+        padding-right: 18vw;
+        padding-left: 18vw;
+    }
+    .logos-classe{
+        width: 100vw;
+    }
+
+    @media only screen and (max-width: 340px){
+
+        #institucional header{
+    
+            font-size: calc(0.6rem + .3vw);
+            
+        }
+    }
+    @media only screen and (max-width: 280px){
+
+        #institucional header{
+    
+            font-size: 0.35rem;
+        }
+        
+           
+    }
 }
+
+
+
