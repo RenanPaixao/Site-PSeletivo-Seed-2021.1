@@ -243,32 +243,23 @@ body {
         justify-content: center;
     }
 
-    #institucional img{
-
-        max-height: 100%;
-        min-height: 67%;
-        max-width: 100%;
-        min-width: 67%;
-
-    }
-
     #institucional #texto-institucional h3{
 
         text-align: center;
     }
 
+    #institucional #imagem-institucional{
+
+        display: none;
+    }
+
     #institucional #texto-institucional p{
 
-        text-align: left;
-        text-justify: auto;
+        text-align: justify;
         margin-left: 15%;
         margin-right: 15%;
     }
 
-    #imagem-institucional{
-
-        align-items: center;
-        justify-content: center;
-    }
+    
 
 }
