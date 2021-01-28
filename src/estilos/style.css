@@ -11,6 +11,7 @@
 
 body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /*Aplicando propriedades para todos os elementos*/
