@@ -20,7 +20,11 @@ body {
     font-family: var(--font-primary);
 }
 
-
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 #hamburger {
     color: #f1f1f1;
@@ -60,7 +64,6 @@ body {
 
 /*Títulos da div com texto (Estilo geral)*/
 #institucional #texto-institucional h3{
-
     color: var(--color-primary);
     text-transform: capitalize;
     text-align: left;
@@ -79,7 +82,7 @@ body {
 
 /*Div da Imagem*/
 #institucional img{
-
+    object-fit: cover;
     width: 82%;
     height: 82%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.77);
@@ -182,6 +185,40 @@ body {
     top: 3em;
 }
 
+#inscricao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.inscricao-textos{
+    width: 50%;
+}
+
+.inscricao-imagem{
+    width: 50%;
+}
+
+.inscricao-itens{
+    margin-left: 10%;
+    text-align: left;
+}
+
+.inscricao-imagem{
+    margin-right: 10%;
+}
+
+#titulo-inscrição{
+    margin: 4%;
+}
+
+.subtitle-section{
+    font-weight: 600;
+}
+
 /* Tela de celular */
 @media only screen and (max-width: 1005px){
 
@@ -207,9 +244,29 @@ body {
         padding-left: 5%;
         margin-bottom: 4%
     }
+
+    #inscricao{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inscricao-itens{
+        text-align: center;
+    }
+
+    .inscricao-textos{
+        width: 100%;
+    }
     
+    .inscricao-imagem{
+        width: 100%;
+    }
 
-
+    .inscricao-imagem img{
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 
@@ -277,19 +334,17 @@ body {
         margin-right: 15%;
     }
     
-    
-    
-
     /*Footer*/
-
-    #footer-itens-id{
-        width: 100vw;
-        margin-left: 0;
-        margin-right: 0;
+    .footer-items{
+        width: 100%;
+        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        font-size: larger;
-        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-mapa{
+        width: 100%;
     }
 
     #logo-footer-seed{
